@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NLW SETUP - Habits </title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="assets/images/logo.svg" alt="Logomarca do aplicativo Habits">
+            <button>
+                <img src="assets/images/plus.svg" alt="icone de adicionar"> 
+                <div>Registrar o meu dia</div>
+            </button>
+        </header>
+        <form id="form-habits">
+            <div class="habits">
+                <div class="habit" data-name="coffe">☕</div>
+                <div class="habit" data-name="study">💻</div>
+                <div class="habit" data-name="eat">🥗</div>
+                <div class="habit" data-name="play">🎮</div>
+            </div>
+            <div class="days"></div>
+        </form>
+
+        <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
